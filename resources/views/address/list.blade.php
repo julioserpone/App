@@ -172,7 +172,7 @@
 
 			}]);
 
-        })(angular.module("AntVel"));
+        })(angular.module("Epikfy"));
 
     </script>
 @stop

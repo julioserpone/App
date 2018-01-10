@@ -2,7 +2,7 @@
     <tr>
         <td width="80" style="background-color: #065fa3; height: 60px; padding-left: 20px; border-top-left-radius:3px;">
             @if (isset($company))
-                <a href="{{ env('MAIN_SERVER') }}"><img src="{{ $company['logo'] }}" style="width:100%; max-width:80px; border-radius: 5px" alt="antvel"></a>
+                <a href="{{ env('MAIN_SERVER') }}"><img src="{{ $company['logo'] }}" style="width:100%; max-width:80px; border-radius: 5px" alt="epikfy"></a>
             @else
                 &nbsp;
             @endif

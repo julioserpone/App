@@ -36,7 +36,7 @@
 
 	<div class="row credits">
 		<div class="col-md-12">
-			{{ trans('globals.power_by_label') }}&nbsp;<a href="http://antvel.com">{{ trans('globals.antvel_eCommerce') }}</a>
+			{{ trans('globals.power_by_label') }}&nbsp;<a href="http://www.epikfy.com">{{ trans('globals.epikfy_ecommerce') }}</a>
 		</div>
 	</div>
 
@@ -58,6 +58,6 @@
 					  		}
 					  	};
 					});
-            })(angular.module("AntVel"));
+            })(angular.module("Epikfy"));
         </script>
     @stop

@@ -64,7 +64,7 @@
 <script>
 
 	(function() {
-		var app = angular.module('AntVel');
+		var app = angular.module('Epikfy');
 		app.controller('DashboardController',function(){});
 
 	})();

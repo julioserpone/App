@@ -1,16 +1,16 @@
 <?php
 
 /*
- * This file is part of the Antvel App package.
+ * This file is part of the Epikfy App package.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 use Illuminate\Database\Seeder;
-use Antvel\Features\Models\Feature;
+use Epikfy\Features\Models\Feature;
 
 class FeaturesTableSeeder extends Seeder
 {

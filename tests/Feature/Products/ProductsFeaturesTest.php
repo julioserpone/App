@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Antvel Shop package.
+ * This file is part of the Epikfy Shop package.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,8 +13,8 @@
 namespace Tests\Feature\Products;
 
 use Tests\TestCase;
-use Antvel\Users\Models\User;
-use Antvel\Features\Models\Feature;
+use Epikfy\Users\Models\User;
+use Epikfy\Features\Models\Feature;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 
@@ -26,7 +26,7 @@ class ProductsFeaturesTest extends TestCase
     {
         parent::setUp();
 
-        $this->admin = factory('Antvel\Users\Models\User')->states('admin')->create();
+        $this->admin = factory('Epikfy\Users\Models\User')->states('admin')->create();
     }
 
     protected function validData($attributes = [])
@@ -153,7 +153,7 @@ class ProductsFeaturesTest extends TestCase
             $this->assertEquals('', $feature->validation_rules);
         });
 
-        Event::assertDispatched('Antvel\Features\Events\FeatureNameWasUpdated', function ($e) use ($feature) {
+        Event::assertDispatched('Epikfy\Features\Events\FeatureNameWasUpdated', function ($e) use ($feature) {
             return $e->feature->id === $feature->id
                 && $e->updatedName === 'Updated name';
         });

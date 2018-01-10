@@ -50,7 +50,7 @@
 <table border="0" width="100%" cellpadding="0" cellspacing="0" class="report-font-style">
     <tr>
         <td>
-            <a href="{{ route('home') }}"><img src="{{ $company['logo'] }}" alt="antvel"></a>
+            <a href="{{ route('home') }}"><img src="{{ $company['logo'] }}" alt="epikfy"></a>
         </td>
         <td>
         	<span>{{ $company['name'] }}</span><br>

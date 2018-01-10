@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Antvel Shop package.
+ * This file is part of the Epikfy Shop package.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,10 +13,10 @@ namespace Tests\Feature\Auth;
 
 use App\User;
 use Tests\TestCase;
-use Antvel\Users\Policies\Roles;
+use Epikfy\Users\Policies\Roles;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Antvel\Users\Notifications\RegistrationNotification;
+use Epikfy\Users\Notifications\RegistrationNotification;
 
 class RegisterTest extends TestCase
 {

@@ -1,5 +1,5 @@
 @extends('dashboard.layouts.panel')
 
 @section('content')
-	The Antvel administration panel!
+	The Epikfy administration panel!
 @endsection

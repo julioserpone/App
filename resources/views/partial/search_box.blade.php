@@ -1,6 +1,6 @@
 <div ng-controller="{{ $angularController }}">
 
-		<angucomplete-alt
+	<angucomplete-alt
 		id="{{ $idSearch }}"
           input-name="{{ $idSearch }}"
           initial-value="{{ isset($search) && $search ? $search : '' }}"

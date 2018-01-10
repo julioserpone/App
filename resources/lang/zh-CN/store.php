@@ -130,7 +130,7 @@ return [
     ],
 
     'paypal' => [
-        'antvel_points_bundle' => '商店点数', //？？
+        'epikfy_points_bundle' => '商店点数', //？？
         'item_name1'           => '商店点数（',
         'item_name2'           => ' 每件）',
         'user_cancelled'       => '您已在PayPal取消这次购买',

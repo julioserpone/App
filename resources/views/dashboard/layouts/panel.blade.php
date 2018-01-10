@@ -2,8 +2,8 @@
 <html lang="{{ config('app.locale') }}">
 <head>
 	<title>@yield('title', trans('dashboard.title'))</title>
-	{!! Html::style('/antvel-bower/bootstrap/dist/css/bootstrap.css') !!}
-	{!! Html::style('/antvel-bower/font-awesome/css/font-awesome.min.css') !!}
+	{!! Html::style('/epikfy-bower/bootstrap/dist/css/bootstrap.css') !!}
+	{!! Html::style('/epikfy-bower/font-awesome/css/font-awesome.min.css') !!}
 	<style>
 		html {
 			position: relative;
@@ -36,7 +36,7 @@
 	</div>
 
 
-	{!! Html::script('/antvel-bower/jquery/dist/jquery.min.js') !!}
-	{!! Html::script('/antvel-bower/bootstrap/dist/js/bootstrap.min.js') !!}
+	{!! Html::script('/epikfy-bower/jquery/dist/jquery.min.js') !!}
+	{!! Html::script('/epikfy-bower/bootstrap/dist/js/bootstrap.min.js') !!}
 </body>
 </html>

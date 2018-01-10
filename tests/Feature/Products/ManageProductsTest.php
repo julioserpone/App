@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Antvel Shop package.
+ * This file is part of the Epikfy Shop package.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,7 +13,7 @@ namespace Tests\Feature\Products;
 
 use Tests\TestCase;
 use Illuminate\Http\UploadedFile;
-use Antvel\Product\Models\Product;
+use Epikfy\Product\Models\Product;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 
@@ -25,11 +25,11 @@ class ManageProductsTest extends TestCase
 	{
 		parent::setUp();
 
-		$this->category = factory('Antvel\Categories\Models\Category')->create([
+		$this->category = factory('Epikfy\Categories\Models\Category')->create([
 			'name' => 'Category Name'
 		])->first();
 
-		$this->seller = factory('Antvel\Users\Models\User')->states('seller')->create()->first();
+		$this->seller = factory('Epikfy\Users\Models\User')->states('seller')->create()->first();
 	}
 
 	protected function validaData($attributes = [])
@@ -145,7 +145,7 @@ class ManageProductsTest extends TestCase
 		Storage::fake('images/products');
 
 		$product = factory(Product::class)->create();
-		$category = factory('Antvel\Categories\Models\Category')->create();
+		$category = factory('Epikfy\Categories\Models\Category')->create();
 
 		$data = [
 			'category' => $category->id,

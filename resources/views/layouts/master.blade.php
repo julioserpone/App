@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ App::getLocale() }}" ng-app="AntVel">
+<html lang="{{ App::getLocale() }}" ng-app="Epikfy">
 <head>
 	@section('metaLabels')
 		<meta charset="utf-8">
@@ -19,11 +19,11 @@
 	};
 	</script>
 
-	{{-- Antvel CSS files --}}
-	{!! Html::style('/antvel-bower/bootstrap/dist/css/bootstrap.css') !!}
+	{{-- Epikfy CSS files --}}
+	{!! Html::style('/epikfy-bower/bootstrap/dist/css/bootstrap.css') !!}
 	@section('css')
-		{!! Html::style('/antvel-bower/angular-notify/dist/angular-notify.min.css') !!}
-		{!! Html::style('/antvel-bower/font-awesome/css/font-awesome.min.css') !!}
+		{!! Html::style('/epikfy-bower/angular-notify/dist/angular-notify.min.css') !!}
+		{!! Html::style('/epikfy-bower/font-awesome/css/font-awesome.min.css') !!}
 		{!! Html::style('/css/carousel.css') !!}
 		{!! Html::style('/css/angucomplete-alt.css') !!}
 		{!! Html::style('/css/app.css') !!}
@@ -98,17 +98,17 @@
 	</footer>
 @show
 
-{{-- Antvel - Bower Components --}}
-{!! Html::script('/antvel-bower/jquery/dist/jquery.min.js') !!}
-{!! Html::script('/antvel-bower/angular/angular.min.js') !!}
-{!! Html::script('/antvel-bower/angular-route/angular-route.min.js') !!}
-{!! Html::script('/antvel-bower/angular-sanitize/angular-sanitize.min.js') !!}
-{!! Html::script('/antvel-bower/angular-bootstrap/ui-bootstrap-tpls.min.js') !!}
-{!! Html::script('/antvel-bower/angular-animate/angular-animate.min.js') !!}
-{!! Html::script('/antvel-bower/angular-loading-bar/build/loading-bar.min.js') !!}
-{!! Html::script('/antvel-bower/angular-mocks/angular-mocks.js') !!}
-{!! Html::script('/antvel-bower/angular-touch/angular-touch.min.js') !!}
-{!! Html::script('/antvel-bower/bootstrap/dist/js/bootstrap.min.js') !!}
+{{-- epikfy - Bower Components --}}
+{!! Html::script('/epikfy-bower/jquery/dist/jquery.min.js') !!}
+{!! Html::script('/epikfy-bower/angular/angular.min.js') !!}
+{!! Html::script('/epikfy-bower/angular-route/angular-route.min.js') !!}
+{!! Html::script('/epikfy-bower/angular-sanitize/angular-sanitize.min.js') !!}
+{!! Html::script('/epikfy-bower/angular-bootstrap/ui-bootstrap-tpls.min.js') !!}
+{!! Html::script('/epikfy-bower/angular-animate/angular-animate.min.js') !!}
+{!! Html::script('/epikfy-bower/angular-loading-bar/build/loading-bar.min.js') !!}
+{!! Html::script('/epikfy-bower/angular-mocks/angular-mocks.js') !!}
+{!! Html::script('/epikfy-bower/angular-touch/angular-touch.min.js') !!}
+{!! Html::script('/epikfy-bower/bootstrap/dist/js/bootstrap.min.js') !!}
 
 {!! Html::script('/js/vendor/xtForms/xtForm.js') !!}
 {!! Html::script('/js/vendor/xtForms/xtForm.tpl.min.js') !!}
@@ -117,7 +117,7 @@
 
 	/**
 	 * ngModules
-	 * Angularjs modules requires by antvel
+	 * Angularjs modules requires by epikfy
 	 * @type {Array}
 	 */
 	var ngModules = [
@@ -129,7 +129,7 @@
 	@section('before.angular') @show
 
 	(function(){
-		angular.module('AntVel', ngModules,
+		angular.module('Epikfy', ngModules,
 		function($interpolateProvider){
 			$interpolateProvider.startSymbol('[[');
 			$interpolateProvider.endSymbol(']]');
@@ -139,21 +139,21 @@
 			$locationProvider.html5Mode({enabled:true,rewriteLinks:false});
 		});
 
-		angular.module('AntVel').constant('CSRF_TOKEN', '{{ csrf_token() }}');
+		angular.module('Epikfy').constant('CSRF_TOKEN', '{{ csrf_token() }}');
 	})();
 
 </script>
 
-{{-- Antvel functions --}}
+{{-- Epikfy functions --}}
 {!! Html::script('/js/app.js') !!}
 
 @section('scripts')
-	{{-- Antvel angucomplete-alt.js version --}}
+	{{-- Epikfy angucomplete-alt.js version --}}
 	{!! Html::script('/js/vendor/angucomplete-alt.js') !!}
 
-	{{-- Antvel-bower components --}}
-	{!! Html::script('/antvel-bower/angular-notify/dist/angular-notify.min.js') !!}
-	{!! Html::script('/antvel-bower/angular-local-storage/dist/angular-local-storage.min.js') !!}
+	{{-- epikfy-bower components --}}
+	{!! Html::script('/epikfy-bower/angular-notify/dist/angular-notify.min.js') !!}
+	{!! Html::script('/epikfy-bower/angular-local-storage/dist/angular-local-storage.min.js') !!}
 @show
 
 </body>

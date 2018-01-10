@@ -187,7 +187,7 @@
 	                    <div class="row">&nbsp;</div>
 	                    <div class="row">
 	                    	<div class="col-lg-12">
-	                    		<a id="twitter" href="https://twitter.com/intent/tweet?hashtags=antvel&text={{ urlencode($product->name) }}&url={{ Request::url() }}&via=_antvel" class="btn btn-success btn-sm full-width">
+	                    		<a id="twitter" href="https://twitter.com/intent/tweet?hashtags=epikfy&text={{ urlencode($product->name) }}&url={{ Request::url() }}&via=julioserpone" class="btn btn-success btn-sm full-width">
 									<span class="fa fa-twitter-square"></span>&nbsp;
 									{{ trans('globals.share_on_twitter') }}
 								</a>
@@ -266,7 +266,7 @@
 @section('scripts')
     @parent
 
-	{!! Html::script('/antvel-bower/angular-lazy-img/release/angular-lazy-img.min.js') !!}
+	{!! Html::script('/epikfy-bower/angular-lazy-img/release/angular-lazy-img.min.js') !!}
 
 	<script src = "https://connect.facebook.net/en_US/sdk.js"></script>
 
@@ -298,7 +298,7 @@
 
             });
 
-        })(angular.module("AntVel"));
+        })(angular.module("Epikfy"));
 
         //Social Buttons
         $(document).ready(function() {

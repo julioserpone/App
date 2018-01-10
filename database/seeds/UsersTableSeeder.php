@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of the Antvel App package.
+ * This file is part of the Epikfy App package.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-use Antvel\Users\Models\User;
+use Epikfy\Users\Models\User;
 use Illuminate\Database\Seeder;
 
 class UsersTableSeeder extends Seeder

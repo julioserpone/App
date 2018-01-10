@@ -2,8 +2,8 @@
 
 return [
 
-   'powered_brand' => 'Antvel eCommerce',
-   'powered_url' => 'http://antvel.com',
+   'powered_brand' => 'Epikfy eCommerce',
+   'powered_url' => 'http://www.epikfy.com',
    'contact_email' => 'Contact Email',
    'terms' => 'Terms and Conditions',
    'refunds' => 'Refunds Policy',
@@ -14,7 +14,7 @@ return [
 
    'contact' => [
       'message' => 'Thanks for contacting us. We will be back to you within the next 24 hours.',
-      'email_subject' => 'Antvel e-commerce has a new request from :name',
+      'email_subject' => 'Epikfy e-commerce has a new request from :name',
       'form_heading' => 'Tell us about your request',
       'greetings_from' => 'Greetings from',
       'label_message' => 'Message',

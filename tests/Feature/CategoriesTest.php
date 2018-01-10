@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Antvel Shop package.
+ * This file is part of the Epikfy Shop package.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,9 +13,9 @@
 namespace Tests\Feature;
 
 use Tests\TestCase;
-use Antvel\Users\Models\User;
+use Epikfy\Users\Models\User;
 use Illuminate\Http\UploadedFile;
-use Antvel\Categories\Models\Category;
+use Epikfy\Categories\Models\Category;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 

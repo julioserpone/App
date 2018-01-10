@@ -3,23 +3,23 @@
 	"description": "Laravel e-commerce Application.",
 	"keywords": ["ecommerce", "laravel", "virtual store", "store", "php"],
 	"minimum-stability": "dev",
-	"homepage": "http://antvel.com",
+	"homepage": "http://www.epikfy.com",
 	"license": "MIT",
 	"type": "project",
 	"authors": [
 		{
-			"name": "Gustavo Ocanto",
-			"email": "gustavoocanto@gmail.com"
+			"name": "Julio Hernandez",
+			"email": "juliohernandezs@gmail.com"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/ant-vel/App/issues",
-		"source": "https://github.com/ant-vel/App"
+		"issues": "https://github.com/julioserpone/epikfy-shop/issues",
+		"source": "https://github.com/julioserpone/epikfy-shop"
 	},
 	"repositories": [
 		{
 			"type": "path",
-			"url" : "/Users/Gustavo/Documents/VALET/Antvel/Shop"
+			"url" : "/Users/Julio/Documents/VALET/julioserpone/epikfy-shop"
 		}
 	],
 	"require": {
@@ -33,7 +33,7 @@
 		"predis/predis": "^1.0",
 		"davejamesmiller/laravel-breadcrumbs": "4.*",
 		"milon/barcode": "5.*",
-		"antvel/shop": "dev-master",
+		"julioserpone/epikfy-framework": "dev-master",
 		"laravel/tinker": "~1.0",
 		"laravel/dusk": "2.*",
 		"doctrine/dbal": "^2.5"

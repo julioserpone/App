@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Antvel e-commerce.
+ * This file is part of the Epikfy e-commerce.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -11,9 +11,9 @@
 
 namespace App\Http\Controllers;
 
-use Antvel\Orders\Models\Order;
+use Epikfy\Orders\Models\Order;
 use App\Http\Controllers\Controller;
-use Antvel\Product\Suggestions\Suggest;
+use Epikfy\Product\Suggestions\Suggest;
 
 class HomeController extends Controller
 {

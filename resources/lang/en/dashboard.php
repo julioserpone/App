@@ -2,7 +2,7 @@
 
 return [
 
-    'title' => 'Antvel',
+    'title' => 'Epikfy',
 
     'nav' => [
         'home' => 'Home',

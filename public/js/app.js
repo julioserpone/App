@@ -1,12 +1,12 @@
 /**
- * Antvel - App Angular Js Functions
+ * Epikfy - App Angular Js Functions
  *
- * @author  Gustavo Ocanto <gustavoocanto@gmail.com>
+ * @author  Julio Hernández <juliohernandezs@gmail.com>
  */
 
 (function(){
 'use strict';
-var app=angular.module('AntVel');
+var app=angular.module('Epikfy');
 
 app.controller('PushNotificationsController', function($scope, $http, $location)
 {

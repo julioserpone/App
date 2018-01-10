@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Antvel - Breadcrumbs Menus.
+ * Epikfy - Breadcrumbs Menus.
  *
- * @author  Gustavo Ocanto <gustavoocanto@gmail.com>
+ * @author  Julio Hernández <juliohernandezs@gmail.com>
  */
 
-use Antvel\Categories\Models\Category;
+use Epikfy\Categories\Models\Category;
 
 //home
 Breadcrumbs::register('home', function ($breadcrumbs) {

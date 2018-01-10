@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Antvel e-commerce.
+ * This file is part of the Epikfy e-commerce.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -21,7 +21,7 @@ class RenameComposerFile extends Command
      *
      * @var string
      */
-    protected $signature = 'antvel:composer {using?} {--dev : Set composer to work in development mode. }';
+    protected $signature = 'epikfy:composer {using?} {--dev : Set composer to work in development mode. }';
 
     /**
      * The console command description.

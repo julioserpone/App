@@ -17,4 +17,4 @@ Homestead.yaml
 /storage/images/categories/*.*
 /storage/images/products/*.*
 /storage/framework/testing/disks/images/avatars/*.*
-/public/antvel-bower
+/public/epikfy-bower

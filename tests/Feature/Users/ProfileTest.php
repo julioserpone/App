@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Antvel Shop package.
+ * This file is part of the Epikfy Shop package.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -12,13 +12,13 @@
 namespace Tests\Users\Feature;
 
 use Tests\TestCase;
-use Antvel\Users\Models\User;
+use Epikfy\Users\Models\User;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Storage;
-use Antvel\Users\Events\ProfileWasUpdated;
-use Antvel\Users\Mail\NewEmailConfirmation;
+use Epikfy\Users\Events\ProfileWasUpdated;
+use Epikfy\Users\Mail\NewEmailConfirmation;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class ProfileTest extends TestCase
@@ -40,8 +40,8 @@ class ProfileTest extends TestCase
     protected function validData($overwrites = [])
     {
         return array_merge([
-            'first_name' => 'Gustavo',
-            'last_name' => 'Ocanto',
+            'first_name' => 'Julio',
+            'last_name' => 'Hernandez',
             'gender' => 'male',
             'email' => 'foo@bar.com',
             'nickname' => 'foobar',
@@ -129,7 +129,7 @@ class ProfileTest extends TestCase
         Mail::fake();
 
         $this->actingAs($this->user)->submit($this->validData([
-            'email' => 'gustavo@antvel.com',
+            'email' => 'julio@epikfy.com',
             'referral' => 'profile',
         ]));
 

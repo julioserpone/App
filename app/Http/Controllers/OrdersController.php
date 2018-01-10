@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Antvel e-commerce.
+ * This file is part of the Epikfy e-commerce.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -11,21 +11,21 @@
 
 namespace App\Http\Controllers;
 
-use Antvel\Product\Products;
+use Epikfy\Product\Products;
 use Illuminate\Http\Request;
-use Antvel\Users\Models\User;
-use Antvel\Product\Models\Product;
+use Epikfy\Users\Models\User;
+use Epikfy\Product\Models\Product;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
-use Antvel\AddressBook\Models\Address;
-use Antvel\Product\Suggestions\Suggest;
+use Epikfy\AddressBook\Models\Address;
+use Epikfy\Product\Suggestions\Suggest;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
-use Antvel\Users\Notifications\OrderWasUpdated;
-use Antvel\Orders\Models\{ Order, OrderDetail };
-use Antvel\Users\Notifications\OrderWasCommented;
+use Epikfy\Users\Notifications\OrderWasUpdated;
+use Epikfy\Orders\Models\{ Order, OrderDetail };
+use Epikfy\Users\Notifications\OrderWasCommented;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 

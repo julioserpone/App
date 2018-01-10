@@ -1,7 +1,7 @@
 {
 	"name": "julioserpone/epikfy-shop",
 	"description": "Epikfy, an Laravel e-commerce Application",
-	"keywords": ["ecommerce", "laravel", "virtual store", "store", "php", "epikfy"],
+	"keywords": ["ecommerce", "laravel", "virtual store", "store", "php", "epikfy-shop", "shop"],
 	"minimum-stability": "dev",
 	"homepage": "http://www.epikfy.com",
 	"license": "MIT",
@@ -17,8 +17,8 @@
 		"source": "https://github.com/julioserpone/epikfy-shop"
 	},
 	"require": {
-		"php": ">=7.0.0",
-                "laravel/framework": "5.5.*",
+		"php": ">=7.1.0",
+        "laravel/framework": "5.5.*",
 		"laravelcollective/html": "5.5.*",
 		"intervention/image": "2.4.*",
 		"greggilbert/recaptcha": "2.*",

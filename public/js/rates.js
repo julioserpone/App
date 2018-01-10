@@ -1,10 +1,10 @@
 (function(){
 
-    var app = angular.module('AntVel'); //references to AntVel module
+    var app = angular.module('Epikfy'); //references to Epikfy module
 
     var rates = angular.module('store-rate', [ ]); //create the home page module
 
-    app.requires.push('store-rate'); //then push a new requirement to AntVel modules
+    app.requires.push('store-rate'); //then push a new requirement to Epikfy modules
 
     app.filter('dateToISO', function() {
         return function(input) {

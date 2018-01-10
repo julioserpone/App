@@ -1,4 +1,4 @@
-# Contributing to Antvel
+# Contributing to Epikfy
 
 Thank you for your contributions!
 
@@ -12,7 +12,7 @@ We work hard to process bugs that are reported, to assist with this please ensur
 
 - **Reproduce steps**: Clearly mention the steps to reproduce the bug.
 
-- **Expected result**: How Antvel should behave on above mentioned steps.
+- **Expected result**: How Epikfy should behave on above mentioned steps.
 
 - **Actual result**: What is the actual result on running above steps i.e. the bug behavior - **include any error messages**.
 
@@ -32,7 +32,7 @@ We work hard to process bugs that are reported, to assist with this please ensur
 If you find out your bug is actually a duplicate of another bug and only notice that after you created it, please also close your bug with a short reference to the other issue that was there before.
 
 #### Reporting security issues
-If you wish to contact us privately about any security exploits in Antvel, you can send us a email to gustavoocanto@gmail.com
+If you wish to contact us privately about any security exploits in Epikfy, you can send us a email to gustavoocanto@gmail.com
 
 ## Feature requests
 

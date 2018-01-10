@@ -83,7 +83,7 @@
                     }
                 };
             }]);
-        })(angular.module("AntVel"))
+        })(angular.module("Epikfy"))
     </script>
 @stop
 @section('before.angular') ngModules.push('angularFileUpload'); @stop

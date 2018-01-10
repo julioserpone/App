@@ -242,7 +242,7 @@ return [
   'company_label'          => 'Company',
   'social_label'           => 'Social',
   'power_by_label'         => 'Power By',
-  'antvel_eCommerce'       => 'Antvel eCommerce',
+  'epikfy_ecommerce'       => 'Epikfy e-Commerce',
   'validation_error_label' => 'Validation Error',
   'success_label'          => 'Success', //used
   'success_text' => 'The process was successfully completed.', //used

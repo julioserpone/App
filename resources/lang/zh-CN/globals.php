@@ -285,7 +285,7 @@ return [
   'company_label'          => '公司',
   'social_label'           => '社交',
   'power_by_label'         => '技术支持 ',
-  'antvel_eCommerce'       => 'Antvel',
+  'epikfy_ecommerce'       => 'Epikfy e-commerce',
   'validation_error_label' => '验证错误',
   'success_label'          => '成功',
   'newsletter_email_error' => '邮箱必需',

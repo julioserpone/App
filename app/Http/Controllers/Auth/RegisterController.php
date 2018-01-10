@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Antvel e-commerce.
+ * This file is part of the Epikfy e-commerce.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,10 +13,10 @@ namespace App\Http\Controllers\Auth;
 
 use App\User;
 use Illuminate\Http\Request;
-use Antvel\Users\Policies\Roles;
+use Epikfy\Users\Policies\Roles;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\RegistersUsers;
-use Antvel\Users\Notifications\RegistrationNotification;
+use Epikfy\Users\Notifications\RegistrationNotification;
 
 class RegisterController extends Controller
 {

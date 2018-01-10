@@ -1,16 +1,16 @@
 <?php
 
 /*
- * This file is part of the Antvel App package.
+ * This file is part of the Epikfy App package.
  *
- * (c) Gustavo Ocanto <gustavoocanto@gmail.com>
+ * (c) Julio Hernández <juliohernandezs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 use Illuminate\Database\Seeder;
-use Antvel\Companies\Models\Company;
+use Epikfy\Companies\Models\Company;
 
 class CompanyTableSeeder extends Seeder
 {
@@ -22,15 +22,15 @@ class CompanyTableSeeder extends Seeder
     public function run()
     {
         factory(Company::class)->create([
-            'name' => 'antvel',
-            'description' => 'Laravel e-commerce Application',
-            'email' => 'info@antvel.com',
-            'contact_email' => 'contact@antvel.com',
-            'sales_email' => 'sales@antvel.com',
-            'support_email' => 'support@antvel.com',
-            'website' => 'http://antvel.com',
-            'twitter' => 'https://twitter.com/_antvel',
-            'facebook' => 'https://www.facebook.com/antvelecommerce',
+            'name' => 'epikfy',
+            'description' => 'An Laravel e-commerce Application',
+            'email' => 'info@epikfy.com',
+            'contact_email' => 'contact@epikfy.com',
+            'sales_email' => 'sales@epikfy.com',
+            'support_email' => 'support@epikfy.com',
+            'website' => 'http://epikfy.com',
+            'twitter' => 'https://twitter.com/epikfy',
+            'facebook' => 'https://www.facebook.com/epikfy',
             'default' => true,
         ]);
     }

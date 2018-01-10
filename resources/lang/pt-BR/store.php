@@ -128,7 +128,7 @@ return [
     ],
 
     'paypal' => [
-        'antvel_points_bundle' => 'Armazenar pontos',
+        'epikfy_points_bundle' => 'Armazenar pontos',
         'item_name1'           => 'Armazenar Pontos (',
         'item_name2'           => ' cada)',
         'user_cancelled'       => 'Você cancelou a compra pelo PayPal',

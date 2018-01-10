@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Antvel - Data Base
+ * Epikfy - Data Base
  * Password Resets Table.
  *
- * @author  Gustavo Ocanto <gustavoocanto@gmail.com>
+ * @author  Julio Hernández <juliohernandezs@gmail.com>
  */
 
 use Illuminate\Support\Facades\Schema;
